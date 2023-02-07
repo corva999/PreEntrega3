@@ -89,7 +89,7 @@ header{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     width: 70%;
-    background-image: url(/img/al_copyrighter.png);
+    background-image: url(../img/al_copyrighter.png);
     background-size: contain;
     background-repeat: no-repeat;
     border: 3px solid rgb(110, 106, 106);
@@ -191,49 +191,49 @@ h2{
 }
 
 .buzo1{
-    background-image: url(/img/AnyConv.com__Buzos\ ªesthetic_ªnimë.jpg);
+    background-image: url(../img/AnyConv.com__Buzos\ ªesthetic_ªnimë.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .buzo2{
-    background-image: url(/img/AnyConv.com__Harajuku\ Sweatshirt\ \ Xxl.jpg);
+    background-image: url(../img/AnyConv.com__Harajuku\ Sweatshirt\ \ Xxl.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .buzo3{
-    background-image: url(/img/AnyConv.com__ea992f8b-1436-4c83-af01-52030a394221.jpg);
+    background-image: url(../img/AnyConv.com__ea992f8b-1436-4c83-af01-52030a394221.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .buzo4{
-    background-image: url(/img/AnyConv.com__Bakugo\ hoddie.jpg);
+    background-image: url(../img/AnyConv.com__Bakugo\ hoddie.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .item1{
-    background-image: url(/img/Anime-Manga-Otaku-Kawaii-Fan-Art-Drawing-Best-Seller-Top-Trending-t-shirt-vector_1.jpg);
+    background-image: url(../img/Anime-Manga-Otaku-Kawaii-Fan-Art-Drawing-Best-Seller-Top-Trending-t-shirt-vector_1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .item2{
-    background-image: url(/img/MIKASA-Anime-T-Shirt-White-_-2XL_1.jpg);
+    background-image: url(../img/MIKASA-Anime-T-Shirt-White-_-2XL_1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .item3{
-    background-image: url(/img/itGirl-Shop-Aesthetic-Clothing-Oversize-Alaska-Cruise-Print-Warm_1.jpg);
+    background-image: url(../img/itGirl-Shop-Aesthetic-Clothing-Oversize-Alaska-Cruise-Print-Warm_1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .item4{
-    background-image: url(/img/Shoto-Todoroki-My-Hero-Academia-Anime-Cartoon-Print-Short-Sleeve-Shirt-T-shirt-Top-Summer-Causal-E-G_1.jpg);
+    background-image: url(../img/Shoto-Todoroki-My-Hero-Academia-Anime-Cartoon-Print-Short-Sleeve-Shirt-T-shirt-Top-Summer-Causal-E-G_1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
