@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+
+
+
 body{
     min-height: 100vh;
     background-image: url(../img/texture-g889748e8d_1920.jpg); 
@@ -26,8 +29,11 @@ header{
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 20px;
+    border-bottom: 3px solid #333;
+    border-top: 3px solid #333;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
     
-
 }
 
 .container-fluid{
@@ -151,6 +157,7 @@ h2{
 }
 
 
+
 .sec2{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -159,83 +166,90 @@ h2{
 }
 
 .sec3{
-    height: 400px;
+    height: 300px;
 }
 
 .sec4{
-    height: 400px;
+    height: 300px;
 }
 
 .secc{
     height: 100vh;
 }
 
-.item{
+.item a img{
     height: 250px;
     width: 200px;
     background-color: #333;
+    border-radius: 9px;
+}
+
+.item a img:hover{
+    transition: all 3.ms ease-in-out;
+    transform: scale(1.1);
+}
+.item1 a img{
+    height: 250px;
+    width: 200px;
     border: 2px solid black;
     border-radius: 9px;
 }
 
-.buzo{ 
+.item2 a img{
+    height: 250px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+
+.item3 a img{
+    height: 250px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+
+.item4 a img{
+    height: 250px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+
+.buzo a img{ 
     height: 250px;
     width: 200px;
     background-color: #333;
-    border: 2px solid black;
-    text-align: center;
-    line-height: 120px;
     border-radius: 9px;
-    justify-items: center;
-    
 }
 
-.buzo1{
-    background-image: url(../img/AnyConv.com__Buzos\ ªesthetic_ªnimë.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+.buzo a img:hover{
+    transition: all 3.ms ease-in-out;
+    transform: scale(1.1);
 }
 
-.buzo2{
-    background-image: url(../img/AnyConv.com__Harajuku\ Sweatshirt\ \ Xxl.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+.buzo1 a img{
+   height: 250px;
+   width: 200px;
+   border: 2px solid black;
+   border-radius: 9px;
 }
 
-.buzo3{
-    background-image: url(../img/AnyConv.com__ea992f8b-1436-4c83-af01-52030a394221.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+.buzo2 a img{
+    border: 2px solid black;
+    border-radius: 9px;
 }
 
-.buzo4{
-    background-image: url(../img/AnyConv.com__Bakugo\ hoddie.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+.buzo3 a img{
+    border: 2px solid black;
+    border-radius: 9px;
 }
 
-.item1{
-    background-image: url(../img/Anime-Manga-Otaku-Kawaii-Fan-Art-Drawing-Best-Seller-Top-Trending-t-shirt-vector_1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.item2{
-    background-image: url(../img/MIKASA-Anime-T-Shirt-White-_-2XL_1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.item3{
-    background-image: url(../img/itGirl-Shop-Aesthetic-Clothing-Oversize-Alaska-Cruise-Print-Warm_1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.item4{
-    background-image: url(../img/Shoto-Todoroki-My-Hero-Academia-Anime-Cartoon-Print-Short-Sleeve-Shirt-T-shirt-Top-Summer-Causal-E-G_1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+.buzo4 a img{
+    height: 250px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 9px;
 }
 
 footer{
@@ -263,4 +277,8 @@ footer i{
     font-size: 30px;
     text-align: center;
     line-height: 20px;
+}
+
+.subir :hover{
+    color: #333;
 }
